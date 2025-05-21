@@ -11,7 +11,7 @@ while True:
         valid_b_count = min(100, max(0, int(2 * shown_hit_rate - a)))
         count += valid_b_count
     
-    true_hit = count / 10000  # Divide by 10000 (100*100) for the percentage
+    true_hit = count / 100  # Divide by 100 for the percentage
     print(true_hit)
 
 '''
